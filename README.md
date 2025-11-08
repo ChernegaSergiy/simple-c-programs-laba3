@@ -27,7 +27,9 @@ gcc triangle_area.c -o triangle_area -lm
 # Run the executable
 ./triangle_area
 ```
-*(Note: The `-lm` flag is required to link the math library for the `fabs` function.)*
+
+> [!NOTE]
+> The `-lm` flag is required to link the math library for the `fabs` function.
 
 ### Time Converter
 
