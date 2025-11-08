@@ -33,14 +33,13 @@ gcc triangle_area.c -o triangle_area -lm
 
 ### Time Converter
 
-The `main` function in `time_converter.c` is commented out by default. To run it, you must first uncomment the `main` block in the file.
+The `time_converter.c` program includes an active `main` function that demonstrates how to convert a given number of minutes into hours and minutes. You can compile and run it directly without any modifications.
 
 ```bash
-# 1. Uncomment the main() function in time_converter.c
-# 2. Compile the program
+# 1. Compile the program
 gcc time_converter.c -o time_converter
 
-# 3. Run the executable
+# 2. Run the executable
 ./time_converter
 ```
 
