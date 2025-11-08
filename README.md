@@ -36,10 +36,10 @@ gcc triangle_area.c -o triangle_area -lm
 The `time_converter.c` program includes an active `main` function that demonstrates how to convert a given number of minutes into hours and minutes. You can compile and run it directly without any modifications.
 
 ```bash
-# 1. Compile the program
+# Compile the program
 gcc time_converter.c -o time_converter
 
-# 2. Run the executable
+# Run the executable
 ./time_converter
 ```
 
